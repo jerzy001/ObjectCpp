@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jerzy/Git/ObjectCpp/vec/main.cpp
+iostream
+-
+vec.h
+/home/jerzy/Git/ObjectCpp/vec/vec.h
+
+/home/jerzy/Git/ObjectCpp/vec/vec.cpp
+vec.h
+/home/jerzy/Git/ObjectCpp/vec/vec.h
+math.h
+-
+
+/home/jerzy/Git/ObjectCpp/vec/vec.h
+
